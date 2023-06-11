@@ -1,0 +1,30 @@
+.navbar {
+    height: 50px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.navbar img {
+    height: 50px;
+    position: absolute;
+    width: 200px;
+    
+    left: 0;
+    top: 0;
+}
+
+.navbar-links li {
+    display: inline;
+    margin-right: 30px;
+}
+  
+.navbar-links li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar-links li:hover {
+    background-color: pink;
+}

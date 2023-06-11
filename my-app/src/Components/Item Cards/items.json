@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "Item 1",
+      "price": 10.99,
+      "imageUrl": "logo.png", 
+      "type": " Fenty",
+      "brand": "Bronzer",
+      "new": "yes"
+    },
+    {
+      "id": 2,
+      "title": "Item 2",
+      "price": 19.99,
+      "imageUrl": "logo.png", 
+      "type": " Skims",
+      "brand": "Eyeshadow",
+      "new": "yes"
+    },
+    {
+      "id": 3,
+      "title": "Item 3",
+      "price": 5.99,
+      "imageUrl": "logo.png", 
+      "type": " Ulta",
+      "brand": "Toner",
+      "new": "no"
+    }
+  ]
+  
