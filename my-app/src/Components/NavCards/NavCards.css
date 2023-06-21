@@ -1,0 +1,28 @@
+.cardContainer{
+    background-color: #FDF6F0;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    
+}
+
+.card1 { 
+    margin-left: 70px;
+    width: 250px;
+    height: 200px;
+}
+
+.card-image {
+    width: 230px;
+    height: 160px;
+
+}
+
+
+.card-header {
+    background-color: #C21885;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 250px;
+  }

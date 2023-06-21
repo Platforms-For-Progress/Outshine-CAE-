@@ -1,28 +1,24 @@
 import React from 'react';
-import "./Navbar.css"
-import logo from "./logo.png"
+import "./Navbar.css";
+import logo from "./logo.png";
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <a href="/">
-        <img src={logo} alt="Logo"/>
-      </a>
-      <ul className="navbar-links">
-        <li>
-          <a href="/">Shop</a>
-        </li>
-        <li>
-          <a href="/about">New Arrivals</a>
-        </li>
-        <li>
-          <a href="/services">Best Sellers</a>
-        </li>
-        <li>
-          <a href="/contact">Contact Me</a>
-        </li>
-      </ul>
-    </nav>
+    <div>
+      <div className='top'>
+          <img src={logo} alt="Logo"/>
+      </div>
+      <nav className="navbar">
+        <ul className="navbar__items">
+          <li className="navbar__item"><a href="/item1">Home</a></li>
+          <li className="navbar__item"><a href="/item2">Shop</a></li>
+          <li className="navbar__item"><a href="/item3">New Arrivals</a></li>
+          <li className="navbar__item"><a href="/item4">Contact Us</a></li>
+          <li className="navbar__item"><a href="/item5">Our Reviews</a></li>
+          <li className="navbar__item"><a href="/item6">FAQS</a></li>
+        </ul>
+      </nav>
+    </div>
   );
 }
 
